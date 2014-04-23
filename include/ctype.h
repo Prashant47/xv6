@@ -1,0 +1,5 @@
+#define isspace(c) ((c) == ' ' || (c) == '\t' || (c) == '\r' || (c) == '\n')
+#define isxdigit(c) ((c) == '0' ||(c) == '1' || (c) == '2' ||(c) == '3' ||(c) == '4' ||(c) == '5' ||(c) == '6' ||(c) == '7' ||(c) == '8' ||(c) == '9' ||(c) == 'A' ||(c) == 'B' ||(c) == 'C' ||(c) == 'D' ||(c) == 'E' ||(c) == 'F' ||(c) == 'a' ||(c) == 'b' ||(c) == 'c' ||(c) == 'd' ||(c) == 'e' ||(c) == 'f')
+#define isalpha(c) (((c) >= 'a' && (c) <= 'z') || ((c) >= 'A' && (c) <= 'Z'))
+#define isdigit(c) ((c) >= '0' && (c) <= '9')
+#define isalnum(c) (isalpha(c) || isdigit(c))

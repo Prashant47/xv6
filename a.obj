@@ -1,0 +1,151 @@
+
+a:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	b8 01 00 00 00       	mov    $0x1,%eax
+   8:	b8 04 00 00 00       	mov    $0x4,%eax
+   d:	50                   	push   %eax
+   e:	6a 03                	push   $0x3
+  10:	e8 37 00 00 00       	call   4c <write>
+  15:	83 c4 10             	add    $0x10,%esp
+  18:	b8 03 00 00 00       	mov    $0x3,%eax
+  1d:	eb 00                	jmp    1f <L1>
+
+0000001f <L1>:
+  1f:	5d                   	pop    %ebp
+  20:	c3                   	ret    
+  21:	90                   	nop
+  22:	90                   	nop
+  23:	90                   	nop
+
+00000024 <fork>:
+  24:	b8 02 00 00 00       	mov    $0x2,%eax
+  29:	cd 40                	int    $0x40
+  2b:	c3                   	ret    
+
+0000002c <exit>:
+  2c:	b8 01 00 00 00       	mov    $0x1,%eax
+  31:	cd 40                	int    $0x40
+  33:	c3                   	ret    
+
+00000034 <wait>:
+  34:	b8 07 00 00 00       	mov    $0x7,%eax
+  39:	cd 40                	int    $0x40
+  3b:	c3                   	ret    
+
+0000003c <pipe>:
+  3c:	b8 2a 00 00 00       	mov    $0x2a,%eax
+  41:	cd 40                	int    $0x40
+  43:	c3                   	ret    
+
+00000044 <read>:
+  44:	b8 03 00 00 00       	mov    $0x3,%eax
+  49:	cd 40                	int    $0x40
+  4b:	c3                   	ret    
+
+0000004c <write>:
+  4c:	b8 04 00 00 00       	mov    $0x4,%eax
+  51:	cd 40                	int    $0x40
+  53:	c3                   	ret    
+
+00000054 <close>:
+  54:	b8 06 00 00 00       	mov    $0x6,%eax
+  59:	cd 40                	int    $0x40
+  5b:	c3                   	ret    
+
+0000005c <kill>:
+  5c:	b8 25 00 00 00       	mov    $0x25,%eax
+  61:	cd 40                	int    $0x40
+  63:	c3                   	ret    
+
+00000064 <exec>:
+  64:	b8 1b 01 00 00       	mov    $0x11b,%eax
+  69:	cd 40                	int    $0x40
+  6b:	c3                   	ret    
+
+0000006c <execve>:
+  6c:	b8 0b 00 00 00       	mov    $0xb,%eax
+  71:	cd 40                	int    $0x40
+  73:	c3                   	ret    
+
+00000074 <open>:
+  74:	b8 05 00 00 00       	mov    $0x5,%eax
+  79:	cd 40                	int    $0x40
+  7b:	c3                   	ret    
+
+0000007c <mknod>:
+  7c:	b8 0e 00 00 00       	mov    $0xe,%eax
+  81:	cd 40                	int    $0x40
+  83:	c3                   	ret    
+
+00000084 <unlink>:
+  84:	b8 0a 00 00 00       	mov    $0xa,%eax
+  89:	cd 40                	int    $0x40
+  8b:	c3                   	ret    
+
+0000008c <fstat>:
+  8c:	b8 6c 00 00 00       	mov    $0x6c,%eax
+  91:	cd 40                	int    $0x40
+  93:	c3                   	ret    
+
+00000094 <link>:
+  94:	b8 09 00 00 00       	mov    $0x9,%eax
+  99:	cd 40                	int    $0x40
+  9b:	c3                   	ret    
+
+0000009c <mkdir>:
+  9c:	b8 27 00 00 00       	mov    $0x27,%eax
+  a1:	cd 40                	int    $0x40
+  a3:	c3                   	ret    
+
+000000a4 <chdir>:
+  a4:	b8 0c 00 00 00       	mov    $0xc,%eax
+  a9:	cd 40                	int    $0x40
+  ab:	c3                   	ret    
+
+000000ac <dup>:
+  ac:	b8 29 00 00 00       	mov    $0x29,%eax
+  b1:	cd 40                	int    $0x40
+  b3:	c3                   	ret    
+
+000000b4 <getpid>:
+  b4:	b8 14 00 00 00       	mov    $0x14,%eax
+  b9:	cd 40                	int    $0x40
+  bb:	c3                   	ret    
+
+000000bc <sbrk>:
+  bc:	b8 2d 00 00 00       	mov    $0x2d,%eax
+  c1:	cd 40                	int    $0x40
+  c3:	c3                   	ret    
+
+000000c4 <sleep>:
+  c4:	b8 a2 00 00 00       	mov    $0xa2,%eax
+  c9:	cd 40                	int    $0x40
+  cb:	c3                   	ret    
+
+000000cc <uptime>:
+  cc:	b8 0d 00 00 00       	mov    $0xd,%eax
+  d1:	cd 40                	int    $0x40
+  d3:	c3                   	ret    
+
+000000d4 <mmap>:
+  d4:	b8 5a 00 00 00       	mov    $0x5a,%eax
+  d9:	cd 40                	int    $0x40
+  db:	c3                   	ret    
+
+000000dc <lseek>:
+  dc:	b8 13 00 00 00       	mov    $0x13,%eax
+  e1:	cd 40                	int    $0x40
+  e3:	c3                   	ret    
+
+Disassembly of section .data:
+
+000000e4 <L2>:
+  e4:	68                   	.byte 0x68
+  e5:	69                   	.byte 0x69
+  e6:	0a 00                	or     (%eax),%al

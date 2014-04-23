@@ -1,0 +1,196 @@
+tcc/tcc.o: In function `atoi':
+/usr/include/stdlib.h:286: undefined reference to `strtol'
+tcc/tcc.o: In function `parse_args':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:365: undefined reference to `tcc_set_num_callers'
+tcc/tcc.o: In function `atoi':
+/usr/include/stdlib.h:286: undefined reference to `strtol'
+tcc/tcc.o: In function `exec_other_tcc':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:254: undefined reference to `fflush'
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:263: undefined reference to `__stack_chk_fail'
+tcc/tcc.o: In function `help':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:44: undefined reference to `puts'
+tcc/tcc.o: In function `main':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:588: undefined reference to `tcc_output_file'
+tcc/tcc.o: In function `getclock_us':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:188: undefined reference to `gettimeofday'
+tcc/tcc.o: In function `main':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:581: undefined reference to `tcc_run'
+tcc/tcc.o: In function `getclock_us':
+/home/administrator/xv6/xv6/demo/linker/tinycc/tcc.c:188: undefined reference to `gettimeofday'
+tcc/libtcc.o: In function `strcat_vprintf':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:556: undefined reference to `vsnprintf'
+tcc/libtcc.o: In function `error1':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:573: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:574: undefined reference to `file'
+tcc/libtcc.o: In function `strcat_vprintf':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:556: undefined reference to `vsnprintf'
+tcc/libtcc.o: In function `error1':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:602: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_basename':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:173: undefined reference to `__rawmemchr'
+tcc/libtcc.o: In function `tcc_fileextension':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:186: undefined reference to `strrchr'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:187: undefined reference to `__rawmemchr'
+tcc/libtcc.o: In function `tcc_cleanup':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:873: undefined reference to `free_defines'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:876: undefined reference to `tok_ident'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:878: undefined reference to `table_ident'
+tcc/libtcc.o: In function `tcc_free':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:208: undefined reference to `table_ident'
+tcc/libtcc.o: In function `tcc_cleanup':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:882: undefined reference to `nb_sym_pools'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:882: undefined reference to `sym_pools'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:884: undefined reference to `tokcstr'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:884: undefined reference to `cstr_free'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:886: undefined reference to `sym_free_first'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:888: undefined reference to `macro_ptr'
+tcc/libtcc.o: In function `put_extern_sym2':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:524: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:461: undefined reference to `get_tok_str'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:522: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:522: undefined reference to `add_elf_sym'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:529: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `greloc':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:547: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:547: undefined reference to `put_elf_reloc'
+tcc/libtcc.o: In function `tcc_error':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:632: undefined reference to `longjmp'
+tcc/libtcc.o: In function `tcc_realloc':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:239: undefined reference to `realloc'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:239: undefined reference to `realloc'
+tcc/libtcc.o: In function `tcc_split_path':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:320: undefined reference to `cstr_ccat'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:310: undefined reference to `cstr_new'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:317: undefined reference to `cstr_ccat'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:315: undefined reference to `cstr_cat'
+tcc/libtcc.o: In function `tcc_compile':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:716: undefined reference to `preprocess_init'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:718: undefined reference to `cur_text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:719: undefined reference to `funcname'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:720: undefined reference to `anon_sym'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:742: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:740: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:740: undefined reference to `put_elf_sym'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:745: undefined reference to `int_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:747: undefined reference to `char_pointer_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:748: undefined reference to `char_pointer_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:748: undefined reference to `mk_pointer'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:750: undefined reference to `func_old_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:751: undefined reference to `int_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:751: undefined reference to `sym_push'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:751: undefined reference to `func_old_type'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:777: undefined reference to `define_stack'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:778: undefined reference to `nocode_wanted'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:780: undefined reference to `_setjmp'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:806: undefined reference to `free_defines'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:808: undefined reference to `gen_inline_functions'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:810: undefined reference to `global_stack'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:810: undefined reference to `sym_pop'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:811: undefined reference to `local_stack'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:811: undefined reference to `sym_pop'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:727: undefined reference to `text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:725: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:725: undefined reference to `put_elf_sym'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:728: undefined reference to `getcwd'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:734: undefined reference to `text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:733: undefined reference to `put_stabs_r'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:736: undefined reference to `text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:735: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:735: undefined reference to `put_stabs_r'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:784: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:784: undefined reference to `ch'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:785: undefined reference to `tok_flags'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:786: undefined reference to `parse_flags'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:787: undefined reference to `vtop'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:788: undefined reference to `next'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:789: undefined reference to `decl'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:790: undefined reference to `tok'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:791: undefined reference to `expect'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:792: undefined reference to `vtop'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:798: undefined reference to `text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:797: undefined reference to `put_stabs_r'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:814: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_open_bf':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:672: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:673: undefined reference to `file'
+tcc/libtcc.o: In function `tcc_close':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:678: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:681: undefined reference to `total_lines'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:683: undefined reference to `file'
+tcc/libtcc.o: In function `tcc_open':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:701: undefined reference to `file'
+tcc/libtcc.o: In function `tcc_compile_string':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:822: undefined reference to `file'
+tcc/libtcc.o: In function `tcc_define_symbol':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:840: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:841: undefined reference to `file'
+tcc/libtcc.o:/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:845: more undefined references to `file' follow
+tcc/libtcc.o: In function `tcc_define_symbol':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:845: undefined reference to `ch'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:846: undefined reference to `next_nomacro'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:847: undefined reference to `parse_define'
+tcc/libtcc.o: In function `tcc_undefine_symbol':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:857: undefined reference to `tok_alloc'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:858: undefined reference to `define_find'
+tcc/libtcc.o: In function `tcc_delete':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1047: undefined reference to `dlclose'
+tcc/libtcc.o: In function `tcc_add_file_internal':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1130: undefined reference to `tcc_assemble'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1117: undefined reference to `tcc_preprocess'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1136: undefined reference to `tcc_assemble'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1141: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1181: undefined reference to `memcmp'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1182: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1183: undefined reference to `tcc_load_archive'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1198: undefined reference to `tcc_load_ldscript'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1157: undefined reference to `file'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1167: undefined reference to `dlopen'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1206: undefined reference to `__stack_chk_fail'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1171: undefined reference to `tcc_load_dll'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1159: undefined reference to `tcc_load_object_file'
+tcc/libtcc.o: In function `tcc_add_library_internal':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1234: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_add_symbol':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1278: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1278: undefined reference to `add_elf_sym'
+tcc/libtcc.o: In function `tcc_set_output_type':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1315: undefined reference to `stab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1317: undefined reference to `stabstr_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1318: undefined reference to `put_elf_str'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1319: undefined reference to `stabstr_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1319: undefined reference to `stab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1321: undefined reference to `put_stabs'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1301: undefined reference to `bounds_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1303: undefined reference to `lbounds_section'
+tcc/libtcc.o: In function `tcc_set_linker':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1565: undefined reference to `strtoul'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1528: undefined reference to `strtoul'
+tcc/libtcc.o: In function `tcc_print_stats':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1591: undefined reference to `total_bytes'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1592: undefined reference to `total_bytes'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1595: undefined reference to `total_lines'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1593: undefined reference to `tok_ident'
+tcc/libtcc.o: In function `tcc_new':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:909: undefined reference to `preprocess_new'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:914: undefined reference to `define_push'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:915: undefined reference to `define_push'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:916: undefined reference to `define_push'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:917: undefined reference to `define_push'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:963: undefined reference to `sscanf'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:996: undefined reference to `text_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:997: undefined reference to `data_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:998: undefined reference to `bss_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1001: undefined reference to `new_symtab'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1001: undefined reference to `symtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1004: undefined reference to `strtab_section'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1007: undefined reference to `new_symtab'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1026: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_default_target':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1632: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_gen_makedeps':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1661: undefined reference to `fputc'
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:1663: undefined reference to `__stack_chk_fail'
+tcc/libtcc.o: In function `tcc_realloc':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:239: undefined reference to `realloc'
+tcc/libtcc.o: In function `tcc_undefine_symbol':
+/home/administrator/xv6/xv6/demo/linker/tinycc/libtcc.c:861: undefined reference to `define_undef'
